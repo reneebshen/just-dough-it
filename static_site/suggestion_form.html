@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>
+    Suggestions - Just Dough It!
+  </title>
+
+  <link rel="stylesheet" type="text/css" href="public/styles/main.css" media="all" />
+</head>
+
+<body>
+  <header>
+    <h1 class="title">Just Dough It!</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a href="recipe_list.html">Recipes</a></li>
+        <li class='active'>
+          <a href="suggestion_form.html">Suggest Recipes</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <form method='get' action='suggest.php'>
+        <fieldset>
+          <legend>
+            <h2>Suggest New Recipes</h2>
+          </legend>
+          <p>
+            Required fields are followed by
+            <strong><abbr title="required">*</abbr></strong>.
+          </p>
+          <p>
+            <label for="recipe-title">
+              <span>Recipe Title: </span>
+              <abbr title="required">*</abbr>
+              <span class='hidden'>Please provide a recipe title.</span>
+            </label>
+            <input id="recipe-title" type="text" name="title" required />
+          </p>
+          <p>
+            <label for="recipe-link">
+              <span>Recipe Link: </span>
+              <abbr title="required">*</abbr>
+              <span class='hidden'>Please provide a recipe link.</span>
+            </label>
+            <input id="recipe-link" type="url" name="link" required />
+          </p>
+          <p>
+            <label for="recipe-background">
+              <span>Reasons for recommending this recipe?</span>
+            </label>
+          </p>
+          <textarea id="recipe-background" name="info"></textarea>
+          <p>
+            <input id='submit' type="submit" value="Suggest!">
+          </p>
+        </fieldset>
+
+      </form>
+    </section>
+  </main>
+
+</body>
+
+</html>

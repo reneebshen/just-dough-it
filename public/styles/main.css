@@ -1,0 +1,199 @@
+html {
+  font-family: sans-serif;
+}
+
+hr {
+  border-top: 2px solid black;
+}
+
+body {
+  background-color: #c3b18b;
+}
+
+h1 {
+  color: #7a5300;
+  margin: 20px;
+}
+
+h2 {
+  color: #462f00;
+}
+
+header {
+  color: white;
+  background-color: #794B26;
+  padding: 30px;
+}
+
+header a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+}
+
+header .title {
+  color: white;
+  padding: 10px 0;
+  display: inline;
+}
+
+nav {
+  display: inline;
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 10px 0px;
+  list-style: none;
+}
+
+nav li {
+  margin: 10px 20px;
+  padding: 10px;
+  display: inline;
+  padding: 8px 20px;
+  border: 3px solid white;
+}
+
+nav li .active {
+  font-weight: bold;
+  text-decoration: underline white 2px;
+}
+
+section {
+  background-color: #fff8eb;
+  overflow: hidden;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+section .recipe-txt {
+  width: 45%;
+  float: left;
+  border: 3px solid #d7c193;
+}
+
+section .recipe-img {
+  float: center;
+  padding: 0px 5px 10px 20px !important;
+}
+
+section li {
+  padding: 5px;
+}
+
+body {
+  margin: 0 auto;
+}
+
+figure {
+  margin: 20px;
+  background-color: #fff8eb;
+}
+
+figure .flex-outer {
+  display: flex;
+}
+
+figure .flex-child {
+  flex: 33%;
+  padding: 10px;
+  background-color: #fff8eb;
+  display: inline-block;
+  text-align: center;
+  max-width: 250px;
+}
+
+figure img {
+  width: 200px;
+  margin: 5px;
+}
+
+figure a {
+  display: block;
+  background-color: #fff8eb;
+  padding: 5px;
+  text-decoration: none;
+  border: 3px solid #462f00;
+  color: #462f00;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 750px;
+}
+
+form .form-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+form .form-item :first-child {
+  width: 150px;
+  text-align: right;
+  margin-right: 4px;
+}
+
+textarea {
+  width: 300px;
+  height: 150px;
+}
+
+.feedback {
+  color: #CE0808;
+  margin-bottom: 4px;
+  font-size: small;
+}
+
+fieldset {
+  width: 100%;
+  float: center;
+}
+
+.background-txt {
+  margin: 5px;
+  padding: 20px 10px;
+  border: 2px solid gray;
+  width: 80%;
+}
+
+span {
+  padding: 15px 5px 15px 0px;
+}
+
+main {
+  background-color: white;
+  padding: 10px;
+}
+
+footer {
+  background-color: #c3b18b;
+  padding: 10px;
+  color: black;
+  text-align: center;
+}
+
+footer a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#submit {
+  margin-top: 10px;
+  float: right;
+}
+
+cite {
+  font-size: 70%;
+}
+
+.hidden {
+  display: none;
+}
